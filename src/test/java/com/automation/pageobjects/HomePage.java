@@ -130,18 +130,21 @@ public class HomePage<T> extends SetUp {
 	 * AddWinterProductToCart
 	 */
 	public void addWintertopProductToCart() {
-//		winteraddtocartbtn.click();
 		SeleniumUtils.click(winteraddtocartbtn);
 
 	}
 
-	
+	/**
+	 * ClickONViewCart
+	 */
 	public void clickOnViewCart() {
-//		viewcartlinktext.click();
 		SeleniumUtils.click(viewcartlinktext);
 
 	}
 
+	/**
+	 * ValidateNavogationButtonIsVisible
+	 */
 	public void validateNavigationButtonIsVisible() {
 
 		if (nextbtn.isDisplayed() && prevbtn.isDisplayed()) {
@@ -152,6 +155,9 @@ public class HomePage<T> extends SetUp {
 
 	}
 
+	/**
+	 * VerifySubscriptionAvailbale
+	 */
 	public void verifySubscriptionAvailable() {
 		if (subscription.isDisplayed()) {
 			logger.info("subscription is visible");
@@ -162,16 +168,23 @@ public class HomePage<T> extends SetUp {
 		
 	}
 
+	/**
+	 * ClickOnUpArrorBtn
+	 */
 	public void clickOnUpArrowBtn() {
-//		uparrowbtn.click();
 		SeleniumUtils.click(uparrowbtn);
 	}
 	
+	/**
+	 * clickProduct
+	 */
 	public void clickProduct() {
-//		productlinktext.click();
 		SeleniumUtils.click(productlinktext);
 	}
 
+	/**
+	 * VerifyText
+	 */
 	public void verifyText() {
         if (fullflegedtext.isDisplayed()) {
             logger.info("Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.");
@@ -181,25 +194,29 @@ public class HomePage<T> extends SetUp {
 		
 	}
 
+	/**
+	 * mouseHoveronSecondProduct
+	 */
 	public void mouseHoverOnSecondProduct() {
-//		Actions actions = new Actions(driver);
-//        actions.moveToElement(secondProduct).perform();
-//        secondProduct.click();
         
         SeleniumUtils.hoverOverElement(driver, secondProduct);
 	}
 
+	/**
+	 * moseHoverOnthirdProduct
+	 */
 	public void mouseHoverOnThirdProduct() {
 		Actions actions = new Actions(driver);
         actions.moveToElement(secondProduct).perform();
         thirdproduct.click();
         
-//        SeleniumUtils.hoverOverElement(driver, thirdproduct);
 		
 	}
 
 	
-	
+	/**
+	 * closeAd
+	 */
 	public void closeAd() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOf(adclosebtn));

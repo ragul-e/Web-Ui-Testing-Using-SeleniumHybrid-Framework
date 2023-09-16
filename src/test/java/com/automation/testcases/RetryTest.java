@@ -14,6 +14,9 @@ public class RetryTest implements IRetryAnalyzer {
   private static final int maxRetryCount = 3;
  
   
+  /**
+   * @param result
+   */
   public boolean retry(ITestResult result) {
 		if(retryCount<maxRetryCount) {
 			retryCount++;

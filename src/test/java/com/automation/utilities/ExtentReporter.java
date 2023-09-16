@@ -13,8 +13,9 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
  */
 public class ExtentReporter {
 	
-	
-	
+	/**
+	 * 
+	 */
 	public static void generateExtentReport() {
 		ExtentReports extentreports = new ExtentReports();
 		File file = new File(System.getProperty("user.dir")+"\\test-output\\ExtentReports\\extentreport.html");

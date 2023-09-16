@@ -25,7 +25,11 @@ public class ExUtils {
 	public static HSSFWorkbook workbook;
 	public static HSSFSheet sheet;
 
-	
+	/**
+	 * 
+	 * @param filepath
+	 * @return
+	 */
 	public static String[][] readValueAs2d(String filepath)  {
 		File file =  new File(filepath);
 		FileInputStream fin = null;
@@ -64,6 +68,11 @@ public class ExUtils {
 		return data;
 	}
 
+	/**
+	 * 
+	 * @param cell
+	 * @return
+	 */
 	private static String getCellStringValue(Cell cell) {
 		String cellValue = "";
 		if (cell != null) {
@@ -81,7 +90,11 @@ public class ExUtils {
 		return cellValue;
 	}
 	
-	
+	/**
+	 * 
+	 * @param filepath
+	 * @param productdetails
+	 */
 	public static void putValueIntoExcel(String filepath ,List<String> productdetails) {
 		workbook = new HSSFWorkbook();
 		sheet = workbook.createSheet("Products");

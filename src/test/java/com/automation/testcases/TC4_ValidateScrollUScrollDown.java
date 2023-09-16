@@ -13,6 +13,9 @@ import com.automation.utilities.ReadProperties;
  */
 public class TC4_ValidateScrollUScrollDown extends SetUp {
 	
+	/**
+	 * testScrollUpScrollDown
+	 */
 	@Test(groups = "smoke",retryAnalyzer = RetryTest.class)
 	public void testScrollUpScrollDown() {
 		ReadProperties readfile = new ReadProperties();

@@ -7,6 +7,10 @@ package com.automation.utilities;
  */
 public class ExcelUtilsException extends Exception {
 	
+	/**
+	 * 
+	 * @param message
+	 */
 	public ExcelUtilsException(String message) {
 		super(message);
 	}

@@ -16,9 +16,14 @@ import com.automation.Base.SetUp;
  */
 public class LoginPage extends SetUp {
 	
+	//webdriver reference variable
      WebDriver driver;
 	
-	
+
+ 	/**
+ 	 * @param driver
+ 	 * constructor to load driver and pagefactory
+ 	 */
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -53,10 +58,18 @@ public class LoginPage extends SetUp {
 
 	
 
+	/**
+	 * clickSignUp
+	 */
 	public void clickSignUp() {
 		loginlinktext.click();
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param newusername
+	 */
 	public <T> void verifyNewUserNameIsVisible(T newusername) {
 		
 		Assert.assertEquals(StringUtils.chop(newusersignuptext.getText()),newusername);
@@ -65,35 +78,64 @@ public class LoginPage extends SetUp {
 		
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param name
+	 */
 	public <T> void enterSignUpName(T name) {
 		signupnamefield.sendKeys(String.valueOf(name));
 		
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param email
+	 */
 	public <T> void enterSignupEmail(T email) {
 		signupemailfield.sendKeys(String.valueOf(email));
 		
 	}
 
+	/**
+	 * clickSignUpBtn
+	 */
 	public  void clickSignUpBtn() {
 		signupbtn.click();
 		
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param loguserEmail
+	 */
 	public <T> void enterEmail(T loguserEmail) {
 		loginemail.sendKeys(String.valueOf(loguserEmail));
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param logPass2
+	 */
 	public <T> void enterPassword(T logPass2) {
 		logpass.sendKeys(String.valueOf(logPass2));
 		
 	}
 
+	/**
+	 * clicklogin
+	 */
 	public void clickLogin() {
 		loginbtn.click();
 		
 	}
 
+	/**
+	 * clickCart
+	 */
 	public void clickCart() {
 		cartBtn.click();
 		

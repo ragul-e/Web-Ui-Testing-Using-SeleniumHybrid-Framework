@@ -20,8 +20,15 @@ import com.automation.Base.SetUp;
  */
 public class PaymentPage extends SetUp {
 
+	/**
+	 * drvier reference variable
+	 */
 	WebDriver driver;
 
+	/**
+ 	 * @param driver
+ 	 * constructor to load driver and pagefactory
+ 	 */
 	public PaymentPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -51,6 +58,10 @@ public class PaymentPage extends SetUp {
 	@FindBy(xpath = "//a[text()='Download Invoice']")
 	WebElement downloadInvoice;
 
+	
+	/**
+	 * verifyPayementSucesMsg
+	 */
 	public  void verifyPaymentSuccessMsg() {
 		if(ordersuccess.isDisplayed()) {
 			logger.info("order placed successfully");
@@ -60,42 +71,72 @@ public class PaymentPage extends SetUp {
 		}
 	}
 
+	/**
+	 * 
+	 * @param cardName
+	 */
 	public void cardname(String cardName) {
 		nameoncardfield.clear();
 		nameoncardfield.sendKeys(cardName);
 
 	}
 
+	/**
+	 * 
+	 * @param cardNum
+	 */
 	public void cardnum(String cardNum) {
 		cardnumfield.clear();
 		cardnumfield.sendKeys(cardNum);
 
 	}
 
+	/**
+	 * 
+	 * @param cardCvc
+	 */
 	public void ccv(String cardCvc) {
 		cvcfield.clear();
 		cvcfield.sendKeys(cardCvc);
 	}
 
+	/**
+	 * 
+	 * @param cardmonthexp
+	 */
 	public void monthExp(String cardmonthexp) {
 		monthexpfield.clear();
 		monthexpfield.sendKeys(cardmonthexp);
 	}
 
+	/**
+	 * 
+	 * @param cardyrexp
+	 */
 	public void yearExp(String cardyrexp) {
 		yearexpfield.clear();
 		yearexpfield.sendKeys(cardyrexp);
 		
 	}
-
+	
+	/**
+	 * 
+	 */
 	public void clickPayAndConfirm() {
 		payanconfirmbtn.click();
 	}
 
+	/**
+	 * 
+	 */
 	public void downloadInvoice() {
 		downloadInvoice.click();
 	}
 
+	/**
+	 * 
+	 * @param invoicefilepath
+	 */
 	public void validateInvoiceDownloadedSuccessfully(String invoicefilepath) {
 
 		// Path to the download folder
@@ -117,6 +158,11 @@ public class PaymentPage extends SetUp {
 		
 	}
 
+	/**
+	 * 
+	 * @param invoiceActualText
+	 * @param invoicepath
+	 */
 	public void validateTextInInvoice(String invoiceActualText, String invoicepath) {
 		
 

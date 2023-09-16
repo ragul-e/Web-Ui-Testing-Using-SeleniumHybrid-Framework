@@ -52,22 +52,41 @@ public class SeleniumUtils extends SetUp  {
 	
 	private static final int SEC = 10; // Default timeout in seconds
 
-
+	/**
+	 * 
+	 * @param driver
+	 * @param element
+	 */
     public static void waitForElementVisible(WebDriver driver, WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(SEC));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
+    /**
+     * 
+     * @param driver
+     * @param element
+     */
     public static void waitForElementClickable(WebDriver driver, WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(SEC));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
     
+    /**
+     * 
+     * @param driver
+     * @param element
+     */
     public static void waitForElementInvisible(WebDriver driver, WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(SEC));
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
     
+    /**
+     * 
+     * @param driver
+     * @param element
+     */
     public static void hoverOverElement(WebDriver driver, WebElement element) {
         Actions actions = new Actions(driver);
         actions.moveToElement(element).perform();

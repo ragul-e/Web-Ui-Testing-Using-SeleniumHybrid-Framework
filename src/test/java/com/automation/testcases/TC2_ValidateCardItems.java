@@ -14,9 +14,14 @@ import com.automation.utilities.Constant;
  * Date: 15/05/2021
  *
  */
+
+
 public class TC2_ValidateCardItems extends SetUp{
 	 
 	
+	/**
+	 * 
+	 */
 	@Test(groups = "smoke",retryAnalyzer = RetryTest.class)
 	public void validateAddItemToCartAndNonExistenceProduct() {
 		

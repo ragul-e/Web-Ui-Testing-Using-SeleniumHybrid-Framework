@@ -83,23 +83,36 @@ public class ProductPage extends SetUp{
 	@FindBy(xpath = "//a[text()='Winter Top']")
 	WebElement deleteproduct;
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productone
+	 */
 	public <T extends CharSequence> void addProductOne(T productone) {
 		searchbox.clear();
-//		searchbox.sendKeys(String.valueOf(productone));
 		searchbox.sendKeys(productone);
 		bluetop.click();
 		continuebtn.click();
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param producttwo
+	 */
 	public <T extends CharSequence> void addProductTwo(T producttwo) {
 		searchbox.clear();
-//		searchbox.sendKeys(String.valueOf(producttwo));
 		searchbox.sendKeys(String.valueOf(producttwo));
 		bluetop.click();
 		continuebtn.click();
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productthree
+	 */
 	public <T> void addProductThree(T productthree) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productthree));
@@ -108,6 +121,11 @@ public class ProductPage extends SetUp{
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productfour
+	 */
 	public <T> void addProductFour(T productfour) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productfour));
@@ -116,6 +134,11 @@ public class ProductPage extends SetUp{
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productfive
+	 */
 	public <T> void addProductFive(T productfive) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productfive));
@@ -123,6 +146,11 @@ public class ProductPage extends SetUp{
 		continuebtn.click();
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productsix
+	 */
 	public <T> void addProductSix(T productsix) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productsix));
@@ -131,6 +159,11 @@ public class ProductPage extends SetUp{
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productseven
+	 */
 	public <T> void addProductSeven(T productseven) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productseven));
@@ -139,6 +172,11 @@ public class ProductPage extends SetUp{
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param producteight
+	 */
 	public <T> void addProductEight(T producteight) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(producteight));
@@ -147,6 +185,11 @@ public class ProductPage extends SetUp{
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productnine
+	 */
 	public <T> void addProductNine(T productnine) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productnine));
@@ -155,6 +198,11 @@ public class ProductPage extends SetUp{
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productten
+	 */
 	public <T> void addProductTen(T productten) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productten));
@@ -162,6 +210,11 @@ public class ProductPage extends SetUp{
 		continuebtn.click();
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * @param productEleven
+	 */
 	public <T> void addProductEleven(T productEleven) {
 		searchbox.clear();
 		searchbox.sendKeys(String.valueOf(productEleven));
@@ -170,6 +223,9 @@ public class ProductPage extends SetUp{
 
 	}
 
+	/**
+	 * clickCartAndVerifyIsDisplayed
+	 */
 	public  void clickCartAndVerifyIsDisplayed() {
 		cartBtn.click();
 		String actualcarttitle = driver.getTitle();
@@ -185,10 +241,16 @@ public class ProductPage extends SetUp{
 
 	}
 	
+	/**
+	 * clickCartLinkTest
+	 */
 	public void clickCartLinkTest() {
 		cartBtn.click();
 	}
 
+	/**
+	 * clickOnContinueShopping
+	 */
 	public void clickOnContinueShopping() {
 		continuebtn.click();
 	}

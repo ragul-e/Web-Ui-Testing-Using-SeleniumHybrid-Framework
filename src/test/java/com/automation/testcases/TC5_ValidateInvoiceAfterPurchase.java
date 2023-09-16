@@ -15,6 +15,10 @@ import com.automation.utilities.ReadProperties;
 public class TC5_ValidateInvoiceAfterPurchase extends SetUp {
 
 	
+	
+	/**
+	 * validateInvoice
+	 */
 	@Test(groups = "smoke",retryAnalyzer = RetryTest.class)
 	public void validateInvoice() {
 		ReadProperties readfile = new ReadProperties();

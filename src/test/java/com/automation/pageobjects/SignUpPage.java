@@ -25,8 +25,15 @@ import com.automation.userdefinedexception.TextExist;
  */
 public class SignUpPage extends SetUp {
 
+	/**
+	 * drvier reference variable
+	 */
 	WebDriver driver;
 
+	/**
+ 	 * @param driver
+ 	 * constructor to load driver and pagefactory
+ 	 */
 	public SignUpPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -86,15 +93,20 @@ public class SignUpPage extends SetUp {
 	@FindBy(xpath = "//button[text()='Create Account']")
 	WebElement createaccountbtn;
 
+	/**
+	 * 
+	 * @param enteraccntnametxt
+	 * validate accountinfotext
+	 */
 	public void validateEnterAccountInformtionIsVisible(String enteraccntnametxt) {
 		Assert.assertTrue(enteraccountinfotext.isDisplayed());
 
-//		if (enteraccountinfotext.isDisplayed()) {
-//			System.out.println("Enter account information is visible");
-//			logger.info("Enter account information is visible");
-//		} else {
-//			
-//		}
+		if (enteraccountinfotext.isDisplayed()) {
+			System.out.println("Enter account information is visible");
+			logger.info("Enter account information is visible");
+		} else {
+			logger.info("Enter account information is not  visible");
+		}
 		
 		try {
 		if(enteraccountinfotext.getText().equals(enteraccntnametxt)) {
@@ -111,15 +123,30 @@ public class SignUpPage extends SetUp {
 
 	}
 
+	/**
+	 * chooseTitle
+	 */
 	public void chooseTitle() {
 		titleradiobtn.click();
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * passord
+	 * @param password
+	 * enterpassword
+	 */
 	public <T> void enterPassword(T password) {
 		passwordfield.sendKeys(String.valueOf(password));
 
 	}
 
+	/**
+	 * 
+	 * @param dob
+	 * enterDOB
+	 */
 	public  void chooseDateOfBirth(String dob) {
 
 //		dob
@@ -143,6 +170,13 @@ public class SignUpPage extends SetUp {
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * addressinfo
+	 * @param addressinfo
+	 * ProvideAddress
+	 */
 	public <T> void verfiyAddressInfoIsVisible(T addressinfo) {
 		
 		if(addressinfotext.isDisplayed()) {
@@ -155,61 +189,144 @@ public class SignUpPage extends SetUp {
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * firstname
+	 * @param signfirstname
+	 * EnterFirstname
+	 */
 	public <T> void firstName(T signfirstname) {
 		firstnamefield.sendKeys(String.valueOf(signfirstname));
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * Lastname
+	 * @param lastname
+	 * EnterLastname
+	 */
 	public <T> void lastname(T lastname) {
 		lastnamefield.sendKeys(String.valueOf(lastname));
 
 	}
-
+	
+	/**
+	 * 
+	 * @param <T>
+	 * CompanyName
+	 * @param compname
+	 * EnterCompanyName
+	 */
 	public <T> void companyName(T compname) {
 		companyfield.sendKeys(String.valueOf(compname));
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * AddressOne
+	 * @param addone
+	 * EnterAdddressOne
+	 */
 	public <T> void addressOne(T addone) {
 		address1field.sendKeys(String.valueOf(addone));
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * AddressTwo
+	 * @param addtwo
+	 * EnterAddressTwo
+	 */
 	public <T> void addressTwo(T addtwo) {
 		address2field.sendKeys(String.valueOf(addtwo));
 
 	}
 
-	public <T> void selectCountry(T cuntryname) {
+	/**
+	 * 
+	 * @param <T>
+	 * selectCountry
+	 * @param countryname
+	 * countryname
+	 * 
+	 */
+	public <T> void selectCountry(T countryname) {
 		Select country = new Select(counrtydropdown);
-		country.selectByVisibleText(String.valueOf(cuntryname));
+		country.selectByVisibleText(String.valueOf(countryname));
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * StatName
+	 * @param statename
+	 * EnterState
+	 */
 	public <T> void enterState(T statename) {
 		statefield.sendKeys(String.valueOf(statename));
 
 	}
 
+	/**
+	 * 
+	 * @param cityname
+	 * EnterCity
+	 */
 	public void enterCity(String cityname) {
 		cityfield.sendKeys(cityname);
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * pincode
+	 * @param zippin
+	 * enterZipcode
+	 */
 	public <T> void enterZipcode(T zippin) {
 		zipcodefield.sendKeys(String.valueOf(zippin));
 
 	}
 
+	/**
+	 * 
+	 * @param <T>
+	 * MobileNumber
+	 * @param mobnum
+	 * EnterMobNum
+	 */
 	public <T> void enterMobileNumber(T mobnum) {
 		mobilenumberfield.sendKeys(String.valueOf(mobnum));
 	}
 
+	/**
+	 * clickCreateAccountBtn
+	 * 
+	 */
 	public  void clickCreateAccountBtn() {
 		createaccountbtn.click();
 
 	}
 
+	/**
+	 * 
+	 * @param doBirth
+	 * EnterBirthDate
+	 * @param doMon
+	 * EnterBirthMonth
+	 * @param doYear
+	 * EnterBirthYear
+	 * SelectDobInDropDown
+	 */
 	public void chooseDateOfBirthParams(String doBirth, String doMon, String doYear) {
 		Select dayselect = new Select(daydropdown);
 		dayselect.selectByVisibleText(doBirth);

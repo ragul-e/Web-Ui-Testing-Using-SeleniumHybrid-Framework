@@ -42,6 +42,10 @@ public class Listeners extends TestListenerAdapter {
 	public ExtentSparkReporter htmlreporter;
 	public ExtentTest test;
 
+	/**
+	 * @param testcontext
+	 * onStart
+	 */
 	public void onStart(ITestContext testContext) {
 		
 		SetUp.logger.info("Test started");
@@ -70,6 +74,9 @@ public class Listeners extends TestListenerAdapter {
 
 	}
 
+	/**
+	 * onTestSucces
+	 */
 	public void onTestSuccess(ITestResult tr) {
 
 		
@@ -84,6 +91,9 @@ public class Listeners extends TestListenerAdapter {
 
 	}
 
+	/**
+	 * onTestFailure
+	 */
 	public void onTestFailure(ITestResult tr) {
 		WebDriver driver = SetUp.driver;
 		test = extent.createTest(tr.getName());
@@ -106,6 +116,9 @@ public class Listeners extends TestListenerAdapter {
 //		
 	}
 
+	/**
+	 * onTestSkipped
+	 */
 	public void onTestSkipped(ITestResult tr) {
 		String testname = tr.getName();
 		test = extent.createTest(tr.getName());
@@ -115,6 +128,9 @@ public class Listeners extends TestListenerAdapter {
 
 	}
 
+	/**
+	 * onFinish
+	 */
 	public void onFinish(ITestContext testContext) {
 		SetUp.logger.info("Test executed");
 		extent.flush();
