@@ -1,0 +1,711 @@
+12:42:53.853 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:42:53.964 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+13:01:11.554 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:01:16.594 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:01:32.298 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:01:32.386 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+13:01:57.010 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:02:08.246 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+13:02:22.566 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:02:22.649 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+13:02:23.049 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+13:02:32.898 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:02:49.583 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:03:07.769 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+13:03:07.769 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+13:03:07.792 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+13:03:15.325 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+15:19:20.013 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:19:22.740 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+15:19:23.954 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:19:42.418 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:19:42.586 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:20:20.329 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:20:32.694 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+15:20:42.496 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:20:50.742 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:30:50.911 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:31:05.884 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+15:31:06.918 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:31:24.069 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:31:24.230 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:31:47.039 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:32:03.414 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:32:29.095 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:32:29.245 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+15:32:29.951 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+15:32:39.713 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:32:54.642 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:33:17.293 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+15:33:17.293 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+15:33:17.348 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+15:37:16.762 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:37:21.649 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+15:37:23.128 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:37:48.498 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:37:53.012 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:38:11.327 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:38:11.424 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+15:38:12.280 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+15:38:22.476 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:38:59.823 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:39:25.817 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+15:39:25.818 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+15:39:25.962 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+15:39:46.569 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+15:45:40.835 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:46:00.290 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:46:23.888 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:46:24.163 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+15:46:24.951 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+15:46:37.165 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:46:46.623 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:53:29.851 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:53:56.836 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+15:54:06.513 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:54:06.618 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:54:31.715 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:54:43.301 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+15:54:51.965 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+16:44:50.660 [main] INFO  com.automation.testcases.SetUp - navigate to url
+16:44:55.245 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+16:44:56.825 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+16:45:18.469 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+16:45:18.554 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+16:50:22.083 [main] INFO  com.automation.testcases.SetUp - navigate to url
+16:50:26.443 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+16:50:28.068 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+16:50:52.932 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+16:50:53.015 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+16:51:14.665 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+16:51:25.831 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+16:52:03.164 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+16:52:17.103 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+16:56:41.916 [main] INFO  com.automation.testcases.SetUp - navigate to url
+16:56:45.655 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+16:56:47.215 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+16:57:10.300 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:54:05.097 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:56:29.780 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:56:36.313 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:57:23.684 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+19:59:04.456 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+20:00:14.627 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+20:00:14.884 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+20:00:15.244 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+20:00:33.256 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+20:38:49.227 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+20:38:49.560 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+20:38:50.204 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+22:22:51.837 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:23:57.131 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:31:38.161 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:31:38.345 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+10:31:39.047 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+10:34:19.111 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:34:19.356 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+10:34:19.739 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+10:36:30.297 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:37:56.204 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:39:04.296 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:39:04.537 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+10:40:32.736 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:40:45.891 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+10:41:05.343 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:41:05.579 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+10:41:48.367 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+10:42:01.403 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+12:30:13.484 [main] INFO  com.automation.testcases.SetUp - navigate to url
+12:32:00.760 [main] INFO  com.automation.testcases.SetUp - navigate to url
+12:33:09.195 [main] INFO  com.automation.testcases.SetUp - navigate to url
+12:47:30.980 [main] INFO  com.automation.testcases.SetUp - navigate to url
+12:47:36.200 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+12:53:08.549 [main] INFO  com.automation.testcases.SetUp - navigate to url
+12:53:13.473 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:05:56.674 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:07:15.330 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:25:12.503 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:25:17.735 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:31:08.769 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:31:17.305 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:30:50.720 [main] INFO  com.automation.testcases.SetUp - navigate to url
+14:30:58.379 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:46:24.072 [main] INFO  com.automation.testcases.SetUp - navigate to url
+14:46:29.806 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+18:05:02.450 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:06:10.835 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:09:25.547 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:09:30.247 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+18:09:30.938 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+18:10:34.252 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:12:15.315 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:12:23.857 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+18:12:24.490 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+18:13:01.945 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:13:02.041 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+18:15:50.935 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:16:29.226 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:16:33.011 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+18:16:34.878 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+18:21:47.562 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:21:52.923 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+18:21:53.813 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+18:27:52.232 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:27:52.340 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+18:28:33.044 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+18:28:44.237 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+18:29:01.653 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:29:06.964 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+18:29:44.684 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+18:30:12.783 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:30:12.905 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+18:30:13.000 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+18:42:39.175 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:42:43.674 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+18:42:44.366 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+18:43:21.441 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:43:21.550 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+18:44:09.417 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+18:44:20.161 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+18:44:46.245 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:57:19.605 [main] INFO  com.automation.testcases.SetUp - navigate to url
+18:57:26.070 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+18:57:27.252 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+18:57:49.860 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:57:49.956 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+18:58:29.953 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+18:58:41.255 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+18:58:58.587 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+18:59:07.266 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:00:06.042 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:00:06.136 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+19:00:06.295 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+19:11:51.557 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:13:04.303 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:13:08.213 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:13:08.950 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:13:52.763 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:15:32.348 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:15:36.340 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:15:37.060 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:16:18.953 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:18:03.276 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:18:35.241 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:18:36.567 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:24:47.433 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:25:10.048 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:25:10.764 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:25:43.933 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:25:44.038 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+19:26:18.674 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+19:26:30.054 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+19:26:46.595 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:29:47.878 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:29:57.265 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:29:58.056 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:31:27.934 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:31:33.321 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:31:35.373 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:32:34.513 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:33:23.564 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:36:33.364 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:36:33.493 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+19:36:33.669 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+19:38:34.044 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:38:37.876 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:38:41.201 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:39:15.526 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:39:15.595 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+19:39:51.203 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+19:40:02.453 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+19:40:34.949 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:40:35.034 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+19:40:35.216 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+19:42:11.256 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:42:44.693 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:42:51.176 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:42:51.733 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:43:20.978 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:43:21.066 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+19:44:04.289 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+19:44:15.612 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+19:44:31.652 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:48:28.191 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:50:31.526 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:50:35.584 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:50:38.823 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:51:15.643 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:51:15.733 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+19:51:51.372 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+19:52:02.613 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+19:52:21.878 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+19:52:21.968 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+19:52:22.077 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+19:53:22.530 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:54:24.625 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:54:34.169 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:54:34.855 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:57:30.916 [main] INFO  com.automation.testcases.SetUp - navigate to url
+19:57:50.977 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+19:57:51.802 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+20:00:21.452 [main] INFO  com.automation.testcases.SetUp - navigate to url
+20:00:27.813 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+20:00:29.901 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+20:01:09.595 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+20:01:09.687 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+20:01:44.360 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+20:01:56.080 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+20:04:17.782 [main] INFO  com.automation.testcases.SetUp - navigate to url
+20:04:47.517 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+20:04:49.462 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+20:05:52.168 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+20:05:52.259 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+21:43:53.343 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+21:43:53.503 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+21:44:31.637 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+21:44:37.909 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+21:45:07.285 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+21:45:07.498 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+21:45:08.098 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+21:47:41.566 [main] INFO  com.automation.testcases.SetUp - navigate to url
+21:48:52.213 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+21:48:59.188 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+21:49:52.993 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+21:49:53.179 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+21:50:47.056 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+21:50:53.429 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+21:51:32.104 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+21:56:39.203 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:01:12.547 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:05:59.275 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:10:46.445 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:10:55.481 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:12:42.657 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:13:44.451 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:13:50.238 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+22:13:52.941 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:15:06.610 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:15:06.748 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+22:16:05.650 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+22:16:11.959 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+22:16:40.027 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:16:40.298 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+22:16:40.822 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+22:20:08.620 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:28:58.890 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:28:59.212 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+22:28:59.546 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+22:29:17.554 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:32:03.575 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:32:14.959 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+22:32:23.266 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:35:06.147 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:35:11.867 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+22:35:13.122 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:35:51.955 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:35:56.971 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:36:38.287 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+22:36:59.661 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:36:59.755 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+22:36:59.996 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+22:41:39.930 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:42:20.504 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:42:28.185 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+22:42:29.868 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:45:52.667 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:45:58.866 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+22:46:00.415 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:46:59.534 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:46:59.638 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+22:48:09.379 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+22:48:16.155 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+22:55:15.423 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:55:15.587 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+22:55:15.821 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+22:55:32.945 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:58:38.486 [main] INFO  com.automation.testcases.SetUp - navigate to url
+22:58:43.495 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+22:58:46.113 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:59:19.803 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:59:19.900 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+22:59:58.284 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:00:04.474 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+23:00:22.003 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:00:39.250 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+23:02:53.795 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:03:16.454 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:03:16.528 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+23:03:16.795 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+23:03:51.153 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:08:43.187 [main] INFO  com.automation.testcases.SetUp - navigate to url
+23:08:47.105 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+23:08:50.391 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+23:09:28.145 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:09:28.210 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+23:10:41.127 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:10:47.398 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+23:11:10.319 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:11:10.411 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+23:11:10.571 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+23:13:21.674 [main] INFO  com.automation.testcases.SetUp - navigate to url
+23:14:01.914 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:14:02.010 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+23:14:47.070 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:14:53.279 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+23:15:10.679 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:15:15.053 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+23:15:58.514 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:17:27.426 [main] INFO  com.automation.testcases.SetUp - navigate to url
+23:17:34.769 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+23:17:36.319 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+23:18:14.271 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:18:21.690 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+23:19:07.366 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:19:31.352 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:19:31.449 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+23:19:31.919 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+23:22:31.327 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:25:02.202 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:28:54.214 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:31:03.161 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:35:33.530 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:38:06.658 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:39:33.735 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:40:55.945 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:42:47.079 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:45:50.262 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:46:12.347 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:47:51.467 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:48:28.794 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:49:39.512 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:50:38.348 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:51:44.519 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:52:07.487 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:52:40.980 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+23:52:40.980 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+23:52:41.122 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 2800
+23:53:04.506 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+23:54:49.486 [main] INFO  com.automation.testcases.SetUp - navigate to url
+23:54:54.625 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+23:54:56.056 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+23:55:36.934 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:55:37.236 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+23:56:53.003 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+23:57:00.200 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+23:57:29.593 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+23:59:36.260 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+00:00:57.587 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+00:03:51.091 [main] INFO  com.automation.testcases.SetUp - navigate to url
+00:04:28.653 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+00:04:36.246 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+00:06:12.877 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+00:06:13.111 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+00:11:47.777 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+00:11:56.838 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+00:13:08.692 [main] INFO  com.automation.testcases.SetUp - navigate to url
+00:13:14.155 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+00:13:17.301 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+00:16:57.730 [main] INFO  com.automation.testcases.SetUp - navigate to url
+00:17:25.846 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+00:17:26.039 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+00:18:54.451 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:02:17.192 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:02:22.699 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+10:02:25.209 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+10:02:48.247 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:02:48.338 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+10:04:01.739 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:07:11.366 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:07:20.318 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+10:07:20.891 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+10:08:08.256 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:08:08.354 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+10:09:20.629 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+10:09:31.136 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+10:10:51.718 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:55:51.341 [main] INFO  com.automation.testcases.SetUp - navigate to url
+10:56:00.120 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+10:56:01.234 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+10:56:31.516 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:56:31.602 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+10:57:11.263 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+10:57:16.936 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+11:04:57.198 [main] INFO  com.automation.testcases.SetUp - navigate to url
+11:04:58.903 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+11:04:59.447 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+11:05:20.192 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+11:05:20.248 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+11:05:37.291 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+11:05:39.259 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+11:05:57.730 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+11:06:07.995 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+11:06:08.051 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+11:06:08.125 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+13:10:15.500 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:10:16.649 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:10:17.059 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:16:32.333 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:16:37.623 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:16:38.300 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:18:28.645 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:18:32.128 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:18:32.724 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:20:47.236 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:20:50.450 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:20:51.032 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:21:03.906 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:21:03.996 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+13:21:27.873 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:21:34.108 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+13:21:47.508 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:21:52.851 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:22:11.263 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:22:11.361 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+13:22:11.444 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+13:22:19.249 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:23:46.351 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:24:59.379 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:25:04.775 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:25:05.458 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:25:25.733 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:25:25.809 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+13:25:43.750 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:25:49.917 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+13:26:04.310 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:26:12.043 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:26:57.705 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:26:57.781 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+13:26:57.887 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+13:27:05.768 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:36:52.489 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:36:55.245 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:36:55.972 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:38:32.542 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:38:32.757 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+13:38:32.937 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+13:39:30.377 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:46:09.643 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:46:14.588 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:46:15.944 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:54:55.974 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:54:59.875 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:55:00.935 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:58:07.385 [main] INFO  com.automation.testcases.SetUp - navigate to url
+13:58:12.206 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+13:58:12.818 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:58:43.913 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:58:45.676 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:59:03.988 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:00:54.160 [main] INFO  com.automation.testcases.SetUp - navigate to url
+14:00:55.308 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:00:55.925 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:01:20.390 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:01:20.511 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+14:01:41.415 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:01:47.601 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+14:03:05.933 [main] INFO  com.automation.testcases.SetUp - navigate to url
+14:03:08.266 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:03:08.845 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:03:34.103 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:03:34.170 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+14:05:24.763 [main] INFO  com.automation.testcases.SetUp - navigate to url
+14:05:27.710 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:05:28.319 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:06:02.067 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:06:02.141 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+14:06:25.342 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:06:31.508 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+14:06:54.106 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:06:54.170 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+14:06:54.328 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+14:07:14.229 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:07:19.951 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:07:29.362 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+14:07:29.362 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+14:07:29.385 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+14:07:34.175 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+14:12:59.282 [main] INFO  com.automation.testcases.SetUp - navigate to url
+14:13:02.238 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:13:02.836 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:13:31.674 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:13:31.749 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+14:13:53.579 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:13:59.191 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+14:14:22.239 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:14:24.927 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:14:40.558 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:14:58.600 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:14:58.656 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+14:14:58.802 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+14:15:15.665 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:15:18.200 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:15:26.054 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+14:15:26.054 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+14:15:26.079 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+14:15:30.783 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+14:22:14.869 [main] INFO  com.automation.testcases.SetUp - navigate to url
+14:22:32.650 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:22:32.738 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+14:22:56.711 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:23:02.904 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+14:23:29.803 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:23:32.650 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:23:49.608 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:24:18.568 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:24:18.644 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+14:24:18.747 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+14:24:34.916 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:24:36.873 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:24:45.865 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+14:24:45.865 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+14:24:45.887 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+14:24:50.654 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+15:09:18.119 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:09:37.483 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:09:37.566 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:10:02.845 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:10:09.013 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+15:10:27.071 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:10:30.514 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:10:56.388 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:11:26.840 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:11:33.977 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:11:45.607 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+15:11:45.607 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+15:11:45.625 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+15:11:50.389 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+15:15:07.103 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:15:26.999 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:15:27.077 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:15:56.797 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:16:17.484 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:16:17.562 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:16:44.940 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:16:51.139 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+15:17:31.924 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:17:41.763 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:17:53.885 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+15:17:53.886 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+15:17:53.912 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+15:17:58.663 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+15:23:22.701 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:25:35.417 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:26:01.422 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:26:01.504 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:26:27.385 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:26:33.575 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+15:26:49.278 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:26:54.634 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:27:14.323 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:27:33.416 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:27:33.511 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+15:27:34.421 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+15:31:12.577 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:31:13.907 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+15:31:14.592 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:31:44.649 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:31:44.729 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:32:04.612 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:32:10.832 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+15:32:30.629 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:32:30.695 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+15:32:30.799 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+15:43:32.906 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:44:38.074 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:44:43.387 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+15:45:09.468 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:45:49.181 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:45:49.319 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+15:45:49.749 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+15:53:54.692 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:56:51.734 [main] INFO  com.automation.testcases.SetUp - navigate to url
+15:57:39.391 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:57:40.548 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+15:58:25.996 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+15:58:32.266 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+15:59:02.937 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+15:59:04.055 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+15:59:04.633 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+16:36:06.659 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+16:36:08.301 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+16:36:40.613 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+16:36:47.010 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+16:37:30.198 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+16:37:30.487 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+16:37:31.205 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+16:39:05.340 [main] INFO  com.automation.testcases.SetUp - navigate to url
+16:39:13.924 [main] INFO  com.automation.testcases.SetUp - navigate to url
+16:39:22.160 [main] INFO  com.automation.testcases.SetUp - navigate to url
+17:30:33.974 [main] INFO  com.automation.testcases.SetUp - navigate to url
+17:54:30.630 [main] INFO  com.automation.testcases.SetUp - navigate to url
+17:54:33.800 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+17:57:25.985 [main] INFO  com.automation.testcases.SetUp - navigate to url
+17:57:29.196 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+19:36:32.428 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:07:58.344 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+22:08:46.051 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:08:46.182 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+22:09:27.450 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+22:09:33.805 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+22:15:23.733 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:15:23.881 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+22:16:07.709 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+22:16:14.671 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+22:17:27.719 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:17:27.880 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+22:17:28.337 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+22:18:02.184 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+22:18:23.053 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+22:18:44.925 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+22:18:44.925 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+22:18:44.976 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+22:18:51.079 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+00:06:15.175 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+00:06:21.167 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+00:07:13.294 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:56:55.062 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:58:04.640 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:58:09.746 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:58:49.915 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:03:15.667 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:03:59.328 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:04:36.074 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+14:04:36.074 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+14:04:36.134 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+14:04:43.617 [main] INFO  com.automation.testcases.SetUp - order placed successfully
+16:56:45.596 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+16:56:49.072 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+16:57:26.622 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:35:49.823 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:35:52.482 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+12:36:34.232 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:36:40.638 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+12:44:10.951 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+12:44:12.458 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+12:50:01.451 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+12:50:02.710 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+12:55:17.374 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:14:55.303 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:14:58.827 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:15:29.275 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:20:00.877 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:20:04.376 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:20:35.018 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:28:36.405 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:28:41.317 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:29:18.111 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+13:50:08.844 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:50:14.117 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:50:50.992 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+10:49:16.933 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+10:49:22.558 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+10:50:00.438 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+11:30:16.796 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+11:30:16.978 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+11:30:17.329 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+11:32:39.363 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+11:32:39.494 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+11:32:39.760 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+13:02:33.496 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+13:03:01.449 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+13:03:46.562 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
