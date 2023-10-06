@@ -1,14 +1,11 @@
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\pageobjects\CartPage.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\Constant.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\pageobjects\SignUpPage.java
-C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\RetryTest.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\pageobjects\LoginPage.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\testcases\TC1_RegistrationProcess.java
-C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\testcases\TC1SignUp.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\ReadProperties.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\testcases\TC4_ValidateScrollUScrollDown.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\DataSetters.java
-C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\MyListeners.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\testcases\RetryTest.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\testcases\TC2_ValidateCardItems.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\Listeners.java
@@ -18,7 +15,6 @@ C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automat
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\pageobjects\HomePage.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\ExtentReporter.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\userdefinedexception\TextExist.java
-C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\TC2_Data.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\pageobjects\AccountPage.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\SeleniumUtils.java
 C:\Users\RA20312005\Workspace-assignments\MilestoneOne\src\test\java\com\automation\utilities\ExcelUtilsException.java

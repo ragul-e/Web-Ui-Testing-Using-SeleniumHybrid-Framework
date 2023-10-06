@@ -11,7 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
 import com.automation.utilities.ExUtils;
 import com.automation.utilities.ReadProperties;
 

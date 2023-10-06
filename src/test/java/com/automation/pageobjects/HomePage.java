@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
 import com.automation.utilities.DataSetters;
 import com.automation.utilities.SeleniumUtils;
 import com.mongodb.diagnostics.logging.Logger;

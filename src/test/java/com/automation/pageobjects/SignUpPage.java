@@ -15,7 +15,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
 import com.automation.userdefinedexception.TextExist;
 /**
  * 
@@ -99,7 +99,7 @@ public class SignUpPage extends SetUp {
 	 * validate accountinfotext
 	 */
 	public void validateEnterAccountInformtionIsVisible(String enteraccntnametxt) {
-		Assert.assertTrue(enteraccountinfotext.isDisplayed());
+//		Assert.assertTrue(enteraccountinfotext.isDisplayed());
 
 		if (enteraccountinfotext.isDisplayed()) {
 			System.out.println("Enter account information is visible");

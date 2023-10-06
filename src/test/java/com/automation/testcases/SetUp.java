@@ -1,4 +1,4 @@
-package com.automation.Base;
+package com.automation.testcases;
 
 import java.util.Arrays;
 import org.apache.logging.log4j.Logger;
@@ -76,23 +76,26 @@ public class SetUp {
 	/**
 	 * launch the edge browser with url
 	 */
+//	
 	@BeforeClass(alwaysRun = true)
 	public void launchBrowser() {
 		
 		
 
-		System.setProperty("webdriver.chrome.driver", chrompath);
+		System.setProperty("webdriver.edge.driver", edgepath);
+//		EdgeOptions options = new EdgeOptions();
 		EdgeOptions options = new EdgeOptions();
 		
 		//diabling notification
 		options.addArguments("diable-notifications");
 		options.addArguments("diable-geolocation");
-		options.addArguments("--headless");
+//		options.addArguments("--headless");
 		options.addArguments("--disable-ads");
 		options.addArguments("--remote-allow-origins=*");
 		
 		//Added add blockers
-		options.addExtensions(new File("src/test/resources/AdBlocker/odfafepnkmbhccpbejgmiehpchacaeak.crx"));
+//		
+		options.addExtensions(new File("C:\\Users\\RA20312005\\Documents\\22-23 Poc\\Adblocker\\odfafepnkmbhccpbejgmiehpchacaeak.crx"));
 		
 		//passing options to edge driver class
 		driver = new EdgeDriver(options);

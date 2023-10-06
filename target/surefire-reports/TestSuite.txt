@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 192.247 s <<< FAILURE! - in TestSuite
+com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice  Time elapsed: 0.166 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
+

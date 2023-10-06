@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.testcases.TC1_RegistrationProcess">
+      <class name="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase">
         <methods>
-          <include name="userRegistration"/>
+          <include name="validateInvoice"/>
           <include name="closeBrowser"/>
-          <include name="driverSetting"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.automation.testcases.TC1_RegistrationProcess -->
+      </class> <!-- com.automation.testcases.TC5_ValidateInvoiceAfterPurchase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

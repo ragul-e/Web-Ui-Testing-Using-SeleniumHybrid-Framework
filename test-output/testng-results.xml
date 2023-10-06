@@ -1,28 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results retried="3" ignored="0" total="4" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T13:01:17 IST" name="Default suite" finished-at="2023-08-23T13:03:50 IST" duration-ms="153885">
+  <suite started-at="2023-10-06T11:43:30 IST" name="Default suite" finished-at="2023-10-06T11:43:59 IST" duration-ms="28079">
     <groups>
-      <group name="regression">
-        <method signature="TC3_ValidateAddressDetailsIncheckoutPage.validateAddressDetailsInCheckoutPage()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@117159c0]" name="validateAddressDetailsInCheckoutPage" class="com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage"/>
-      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC5_ValidateInvoiceAfterPurchase.validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@7ef82753]" name="validateInvoice" class="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-08-23T13:01:17 IST" name="Default test" finished-at="2023-08-23T13:03:50 IST" duration-ms="153885">
-      <class name="com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage">
-        <test-method is-config="true" signature="driverSetting()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@117159c0]" started-at="2023-08-23T13:01:17 IST" name="driverSetting" finished-at="2023-08-23T13:02:32 IST" duration-ms="75523" status="PASS">
+    <test started-at="2023-10-06T11:43:30 IST" name="Default test" finished-at="2023-10-06T11:43:59 IST" duration-ms="28079">
+      <class name="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@7ef82753]" started-at="2023-10-06T11:43:31 IST" name="launchBrowser" finished-at="2023-10-06T11:43:45 IST" duration-ms="14230" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driverSetting -->
-        <test-method signature="validateAddressDetailsInCheckoutPage()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@117159c0]" started-at="2023-08-23T13:02:32 IST" name="validateAddressDetailsInCheckoutPage" finished-at="2023-08-23T13:03:49 IST" duration-ms="76460" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@7ef82753]" started-at="2023-10-06T11:43:45 IST" name="validateInvoice" finished-at="2023-10-06T11:43:57 IST" duration-ms="12470" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at org.junit.Assert.assertFalse(Assert.java:75)
+at com.automation.pageobjects.PaymentPage.verifyPaymentSuccessMsg(PaymentPage.java:70)
+at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAddressDetailsInCheckoutPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@117159c0]" started-at="2023-08-23T13:03:49 IST" name="closeBrowser" finished-at="2023-08-23T13:03:50 IST" duration-ms="1630" status="PASS">
+        </test-method> <!-- validateInvoice -->
+        <test-method retried="true" signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@7ef82753]" started-at="2023-10-06T11:43:57 IST" name="validateInvoice" finished-at="2023-10-06T11:43:57 IST" duration-ms="18" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertTrue(Assert.java:53)
+at com.automation.pageobjects.HomePage.verifyHomePage(HomePage.java:101)
+at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method retried="true" signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@7ef82753]" started-at="2023-10-06T11:43:57 IST" name="validateInvoice" finished-at="2023-10-06T11:43:57 IST" duration-ms="12" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertTrue(Assert.java:53)
+at com.automation.pageobjects.HomePage.verifyHomePage(HomePage.java:101)
+at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@7ef82753]" started-at="2023-10-06T11:43:57 IST" name="validateInvoice" finished-at="2023-10-06T11:43:57 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertTrue(Assert.java:53)
+at com.automation.pageobjects.HomePage.verifyHomePage(HomePage.java:101)
+at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@7ef82753]" started-at="2023-10-06T11:43:57 IST" name="closeBrowser" finished-at="2023-10-06T11:43:59 IST" duration-ms="1275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage -->
+      </class> <!-- com.automation.testcases.TC5_ValidateInvoiceAfterPurchase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -10,8 +10,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.junit.Assert;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
+
 /**
  * 
  * @author RagulRaj
@@ -63,6 +65,9 @@ public class PaymentPage extends SetUp {
 	 * verifyPayementSucesMsg
 	 */
 	public  void verifyPaymentSuccessMsg() {
+		
+		//failing step intentionally to showcase the screenshot of failed step
+		Assert.assertFalse(ordersuccess.isDisplayed());
 		if(ordersuccess.isDisplayed()) {
 			logger.info("order placed successfully");
 		}

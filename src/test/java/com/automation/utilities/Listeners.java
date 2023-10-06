@@ -17,7 +17,7 @@ import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 import java.nio.file.*;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -33,7 +33,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 /**
  * 
  * @author RagulRaj
- * Date: 15/05/2021
+ * Date: 15/05/2022
  *
  */
 public class Listeners extends TestListenerAdapter {
@@ -41,6 +41,8 @@ public class Listeners extends TestListenerAdapter {
 	public ExtentReports extent;
 	public ExtentSparkReporter htmlreporter;
 	public ExtentTest test;
+	
+	
 
 	/**
 	 * @param testcontext
@@ -48,7 +50,7 @@ public class Listeners extends TestListenerAdapter {
 	 */
 	public void onStart(ITestContext testContext) {
 		
-		SetUp.logger.info("Test started");
+//		SetUp.logger.info("Test started");
 
 		// time stamp
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
@@ -56,12 +58,13 @@ public class Listeners extends TestListenerAdapter {
 		// specifying location
 		String repname = "Test-Report:" + timestamp + ".html";
 		htmlreporter = new ExtentSparkReporter(
-				System.getProperty("user.dir") + "\\test-output\\ExtentReports\\extentreport.html");
+//				System.getProperty("user.dir") + "\\test-output\\ExtentReports\\extentreport.html");
+		System.getProperty("user.dir") + "\\docs\\index.html");
 		extent = new ExtentReports();
 
 		extent.attachReporter(htmlreporter);
-		extent.setSystemInfo("user", "RA20312005");
-		extent.setSystemInfo("Environment", "prod");
+		extent.setSystemInfo("user", "RagulRaj E");
+		extent.setSystemInfo("Environment", "Testing");
 
 		// Report title
 		htmlreporter.config().setDocumentTitle("E-commerce app");
@@ -87,7 +90,7 @@ public class Listeners extends TestListenerAdapter {
 
 		// passed info
 		test.log(Status.PASS, MarkupHelper.createLabel(testname, ExtentColor.GREEN));
-		SetUp.logger.info("Test passed");
+//		SetUp.logger.info("Test passed");
 
 	}
 
@@ -112,7 +115,7 @@ public class Listeners extends TestListenerAdapter {
 
 		String methodName = tr.getMethod().getMethodName();
 		test.log(Status.FAIL, MarkupHelper.createLabel(methodName, ExtentColor.RED));
-		SetUp.logger.info("Test Failed");
+//		System.out.println("Test Failed");
 //		
 	}
 
@@ -124,7 +127,7 @@ public class Listeners extends TestListenerAdapter {
 		test = extent.createTest(tr.getName());
 		test.log(Status.SKIP, MarkupHelper.createLabel(testname, ExtentColor.ORANGE));
 		test.log(Status.SKIP, tr.getThrowable());
-		SetUp.logger.info("Test skipped");
+//		SetUp.logger.info("Test skipped");
 
 	}
 
@@ -132,7 +135,7 @@ public class Listeners extends TestListenerAdapter {
 	 * onFinish
 	 */
 	public void onFinish(ITestContext testContext) {
-		SetUp.logger.info("Test executed");
+		System.out.println("Test executed");
 		extent.flush();
 	}
 }

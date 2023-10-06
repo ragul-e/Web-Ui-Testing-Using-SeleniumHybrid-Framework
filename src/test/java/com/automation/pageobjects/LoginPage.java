@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
 /**
  * 
  * @author RagulRaj

@@ -3,7 +3,6 @@ package com.automation.testcases;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.automation.Base.SetUp;
 import com.automation.pageobjects.PaymentPage;
 import com.automation.utilities.ReadProperties;
 /**
@@ -47,7 +46,7 @@ public class TC5_ValidateInvoiceAfterPurchase extends SetUp {
 		paymentpage.monthExp(readfile.cardmonthexp());
 		paymentpage.yearExp(readfile.cardyrexp());
 		paymentpage.clickPayAndConfirm();
-		paymentpage.verifyPaymentSuccessMsg();	
+		paymentpage.verifyPaymentSuccessMsg();//failing step intentionally to showcase the screenshot of failed step	
 		paymentpage.downloadInvoice();
 		paymentpage.validateInvoiceDownloadedSuccessfully(readfile.invoiceFilePath());
 		paymentpage.validateTextInInvoice(readfile.invoiceText(),readfile.invoiceFilePath());

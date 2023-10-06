@@ -3,7 +3,6 @@ package com.automation.testcases;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.automation.Base.SetUp;
 import com.automation.utilities.ReadProperties;
 /**
  * 

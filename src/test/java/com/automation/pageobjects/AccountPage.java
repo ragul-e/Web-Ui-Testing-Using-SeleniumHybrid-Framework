@@ -1,6 +1,8 @@
 package com.automation.pageobjects;
 
 
+import java.util.Set;
+
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
 
 /**
  * 
@@ -58,6 +60,7 @@ public class AccountPage extends SetUp {
 	 */
 	public void clickOnContinue() {
 		continuebtn.click();
+		logger.info("continue btn is clicked");
 
 	}
 

@@ -5,28 +5,19 @@
     <listener class-name="com.automation.utilities.Listeners"/>
   </listeners>
   <test thread-count="5" name="AutomationExcercise(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.automation.testcases.TC1_RegistrationProcess">
+      <class name="com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage">
         <methods>
-          <include name="userRegistration"/>
-          <include name="driverSetting"/>
+          <include name="validateAddressDetailsInCheckoutPage"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.automation.testcases.TC1_RegistrationProcess -->
-      <class name="com.automation.testcases.TC4_ValidateScrollUScrollDown">
-        <methods>
-          <include name="testScrollUpScrollDown"/>
-          <include name="driverSetting"/>
-        </methods>
-      </class> <!-- com.automation.testcases.TC4_ValidateScrollUScrollDown -->
+      </class> <!-- com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage -->
       <class name="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase">
         <methods>
           <include name="validateInvoice"/>
-          <include name="driverSetting"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
         </methods>
       </class> <!-- com.automation.testcases.TC5_ValidateInvoiceAfterPurchase -->
     </classes>

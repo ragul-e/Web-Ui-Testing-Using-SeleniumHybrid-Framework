@@ -1,4 +1,3 @@
-com\automation\testcases\TC1SignUp.class
 com\automation\userdefinedexception\TextExist.class
 com\automation\utilities\ExcelUtilsException.class
 com\automation\pageobjects\AccountPage.class
@@ -8,18 +7,15 @@ com\automation\utilities\ExtentReporter.class
 com\automation\testcases\RetryTest.class
 com\automation\pageobjects\LoginPage.class
 com\automation\utilities\Listeners.class
-com\automation\utilities\MyListeners.class
 com\automation\pageobjects\SignUpPage.class
 com\automation\pageobjects\PaymentPage.class
 com\automation\pageobjects\CartPage.class
 com\automation\utilities\Constant.class
 com\automation\utilities\SeleniumUtils.class
 com\automation\pageobjects\ProductPage.class
-com\automation\utilities\TC2_Data.class
 com\automation\testcases\TC5_ValidateInvoiceAfterPurchase.class
 com\automation\testcases\SetUp.class
 com\automation\testcases\TC1_RegistrationProcess.class
-com\automation\utilities\RetryTest.class
 com\automation\testcases\TC3_ValidateAddressDetailsIncheckoutPage.class
 com\automation\utilities\ReadProperties.class
 com\automation\testcases\TC4_ValidateScrollUScrollDown.class

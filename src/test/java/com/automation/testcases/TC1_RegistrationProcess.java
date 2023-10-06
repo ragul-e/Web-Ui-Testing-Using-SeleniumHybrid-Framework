@@ -5,7 +5,6 @@ import org.testng.annotations.Parameters;
 //import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.automation.Base.SetUp;
 import com.automation.utilities.ExUtils;
 /**
  * 
@@ -23,7 +22,8 @@ public class TC1_RegistrationProcess extends SetUp {
 	 */
 	@DataProvider
     public String[][] getLogData() {
-		String data[][] = ExUtils.readValueAs2d("src/test/java/com/automation/testdata/One.xlsx");
+		ExUtils.createFile("src/test/java/com/automation/testdata/One.xls");
+		String data[][] = ExUtils.readData("src/test/java/com/automation/testdata/One.xls");
    	 return data;
     }
 	
@@ -52,9 +52,10 @@ public class TC1_RegistrationProcess extends SetUp {
 	 * @param Accountcreatedtext
 	 * @param loginasusername
 	 */
-	@Test(dataProvider="getLogData",groups = "smoke",retryAnalyzer = RetryTest.class)
+//	retryAnalyzer = RetryTest.class
+	@Test(dataProvider="getLogData",groups = "smoke")
 	public void userRegistration(String username, String signupname, String signemail,String accountinfotext, String password, String day, String Month, String year, String address, String firstname,
-			                      String lastname,String companyname, String addressone,String addresstwo, String country, String state, String city, String zipcode, String mobnum, String verifyaccuntcreatedtext, String Accountcreatedtext, String loginasusername)  {
+			                      String lastname,String companyadress, String addressone,String addresstwo, String country, String state, String city, String zipcode, String mobnum, String verifyaccuntcreatedtext, String Accountcreatedtext, String loginasusername)  {
 //		logger.info("navigate to url");
 		loginpage.clickSignUp();
 		loginpage.verifyNewUserNameIsVisible(username);
@@ -68,7 +69,7 @@ public class TC1_RegistrationProcess extends SetUp {
 		signuppage.verfiyAddressInfoIsVisible(address);
 		signuppage.firstName(firstname);
 		signuppage.lastname(lastname);
-		signuppage.companyName(companyname);
+		signuppage.companyName(companyadress);
 		signuppage.addressOne(addressone);
 		signuppage.addressTwo(addresstwo);
 		signuppage.selectCountry(country);

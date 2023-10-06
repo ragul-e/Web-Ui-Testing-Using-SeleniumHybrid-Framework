@@ -1,6 +1,6 @@
 package com.automation.utilities;
 
-import com.automation.Base.SetUp;
+import com.automation.testcases.SetUp;
 
 /**
  * 

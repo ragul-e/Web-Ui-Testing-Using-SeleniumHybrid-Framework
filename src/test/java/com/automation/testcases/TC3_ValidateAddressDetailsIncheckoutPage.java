@@ -4,7 +4,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.automation.Base.SetUp;
 import com.automation.pageobjects.CheckoutPage;
 import com.automation.utilities.Constant;
 import com.automation.utilities.DataSetters;
@@ -20,8 +19,8 @@ import com.automation.utilities.TC1_Datas;
 public class TC3_ValidateAddressDetailsIncheckoutPage extends SetUp{
 	
 	
-	
-	@Test(groups = "regression",retryAnalyzer = RetryTest.class)
+//	retryAnalyzer = RetryTest.class
+	@Test(groups = "regression")
 	public void validateAddressDetailsInCheckoutPage() {
 		ReadProperties readfile = new ReadProperties();
 
