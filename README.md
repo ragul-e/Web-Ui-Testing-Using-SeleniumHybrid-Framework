@@ -80,49 +80,51 @@
 18.	Validate if the invoice is downloaded successfully.
 19.	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
 
-**1.Topics Implemented in Framework**
-**2.Selenium-java**
-**2.Data Driven Testing**
+# Topics Implemented in Framework
 
-**4./Src**
- **Utilities**
-  1.Excel Reader
-  2.Excel Writer
-  3.Selenium methods
-  4.Generics
-  5.Constants
+1. **Selenium-java**
+2. **Data Driven Testing**
 
-**5./resource**
-  1.Configuration Reader
-  2.Drivers
-  3.Test Data Excel file
-  
-**6.TestNG**
-**7.Maven Build Tool**
-**8.loggers**
- 1.log4j2
- 
-**9.listeners**
- 1.TestNG TestListenerAdapter
- 
-**10Extent Report**
- 1.ExtentSparkReporter
+## /Src
+### Utilities
+1. Excel Reader
+2. Excel Writer
+3. Selenium methods
+4. Generics
+5. Constants
 
-**11.Retry Failed Test case**
-**12.DataSetters**
-**13.Funtion Library**
- 1.Pre condition
- 2.Post condition
- 
-**14.User Defined Exception**
-**15.Screenshot for Failed Test cases**
-**16.Runner**
- 1.Pom.xml
- 2.TestNG.xml
- 
-**17.Suite**
- 1.smoke
- 2.Regression
+## /resource
+1. Configuration Reader
+2. Drivers
+3. Test Data Excel file
+
+## TestNG
+## Maven Build Tool
+## loggers
+1. log4j2
+
+## listeners
+1. TestNG TestListenerAdapter
+
+## Extent Report
+1. ExtentSparkReporter
+
+## Retry Failed Test case
+## DataSetters
+## Funtion Library
+1. Pre condition
+2. Post condition
+
+## User Defined Exception
+## Screenshot for Failed Test cases
+## Runner
+1. Pom.xml
+2. TestNG.xml
+
+## Suite
+1. smoke
+2. Regression
+
 
 
 
