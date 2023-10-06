@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="243.001" tests="8" errors="0" skipped="3" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="227.173" tests="8" errors="0" skipped="3" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\RA20312005\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\RA20312005\AppData\Local\Temp\surefire2909029243919074477\surefirebooter989074234246606719.jar C:\Users\RA20312005\AppData\Local\Temp\surefire2909029243919074477 2023-10-06T13-41-41_865-jvmRun1 surefire2115303695642642231tmp surefire_01958914041302220525tmp"/>
+    <property name="sun.java.command" value="C:\Users\RA20312005\AppData\Local\Temp\surefire11509066939906930556\surefirebooter4402440409934173189.jar C:\Users\RA20312005\AppData\Local\Temp\surefire11509066939906930556 2023-10-06T14-33-11_893-jvmRun1 surefire15382480971784282200tmp surefire_06273273204489450430tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\RA20312005\Workspace-assignments\MilestoneOne\target\test-classes;C:\Users\RA20312005\Workspace-assignments\MilestoneOne\target\classes;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\RA20312005\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\RA20312005\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\RA20312005\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\RA20312005\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\RA20312005\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\RA20312005\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\RA20312005\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\RA20312005\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\RA20312005\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\RA20312005\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\RA20312005\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\RA20312005\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\RA20312005\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\RA20312005\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\RA20312005\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\RA20312005\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\RA20312005\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\RA20312005\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\RA20312005\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\RA20312005\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\RA20312005\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\RA20312005\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\RA20312005\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\RA20312005\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\RA20312005\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\RA20312005\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\RA20312005\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\RA20312005\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\RA20312005\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\RA20312005\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\RA20312005\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\RA20312005\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\RA20312005\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\RA20312005\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\RA20312005\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\RA20312005\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\RA20312005\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\RA20312005\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\RA20312005\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\RA20312005\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\RA20312005\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\RA20312005\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\RA20312005\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\RA20312005\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\RA20312005\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\RA20312005\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\RA20312005\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\RA20312005\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\RA20312005\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\RA20312005\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\RA20312005\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\RA20312005\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\RA20312005\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\RA20312005\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\RA20312005\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\RA20312005\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\RA20312005\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\RA20312005\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\RA20312005\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\RA20312005\.m2\repository\com\aventstack\extentreports\4.1.6\extentreports-4.1.6.jar;C:\Users\RA20312005\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\RA20312005\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\RA20312005\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\RA20312005\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RA20312005\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\RA20312005\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\RA20312005\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\RA20312005\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\RA20312005\AppData\Local\Temp\surefire2909029243919074477\surefirebooter989074234246606719.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RA20312005\AppData\Local\Temp\surefire11509066939906930556\surefirebooter4402440409934173189.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8"/>
@@ -58,77 +58,95 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="userRegistration[New User Signup, boston1, boston17@gmail.com, ENTER ACCOUNT INFORMATION, Janet6@Automation7, 12, December, 2020, ADDRESS INFORMATION, janet5, a, wipro, gandhi street, bheema ra street, India, tn, chennai, 607002, 1010101010, ACCOUNT CREATED!, ACCOUNT CREATED, logged in as boston1](1)" classname="com.automation.testcases.TC1_RegistrationProcess" time="20.963">
-    <system-out><![CDATA[13:42:10.459 [main] WARN  org.apache.poi.POIDocument - DocumentSummaryInformation property set came back as null
-13:42:10.472 [main] WARN  org.apache.poi.POIDocument - SummaryInformation property set came back as null
+  <testcase name="userRegistration[New User Signup, boston1, boston18@gmail.com, ENTER ACCOUNT INFORMATION, Janet6@Automation7, 12, December, 2020, ADDRESS INFORMATION, janet5, a, wipro, gandhi street, bheema ra street, India, tn, chennai, 607002, 1010101010, ACCOUNT CREATED!, ACCOUNT CREATED, logged in as boston1](1)" classname="com.automation.testcases.TC1_RegistrationProcess" time="18.049">
+    <system-out><![CDATA[14:33:38.708 [main] WARN  org.apache.poi.POIDocument - DocumentSummaryInformation property set came back as null
+14:33:38.716 [main] WARN  org.apache.poi.POIDocument - SummaryInformation property set came back as null
 Enter account information is visible
-13:42:17.412 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
-13:42:17.541 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
-13:42:18.917 [main] INFO  com.automation.testcases.SetUp - address information text is visible
-13:42:31.901 [main] INFO  com.automation.testcases.SetUp - continue btn is clicked
+14:33:42.236 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:33:42.361 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+14:33:43.487 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:33:57.023 [main] INFO  com.automation.testcases.SetUp - continue btn is clicked
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Oct 06, 2023 1:41:46 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+Oct 06, 2023 2:33:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Oct 06, 2023 1:42:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 06, 2023 2:33:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="validateAddItemToCartAndNonExistenceProduct" classname="com.automation.testcases.TC2_ValidateCardItems" time="38.16">
-    <system-out><![CDATA[13:42:31.984 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
-13:42:56.081 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
-13:42:57.776 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+  <testcase name="validateAddItemToCartAndNonExistenceProduct" classname="com.automation.testcases.TC2_ValidateCardItems" time="32.962">
+    <system-out><![CDATA[14:33:57.126 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+14:34:21.207 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:34:21.341 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
 Navigation buttons in recommended items section are visible.
 Product is displayed in the cart page.
-13:43:28.463 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
-13:43:34.190 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+14:34:48.344 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:34:54.133 [main] INFO  com.automation.testcases.SetUp - successfully removed 
 ]]></system-out>
-    <system-err><![CDATA[Oct 06, 2023 1:42:33 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Oct 06, 2023 2:33:57 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Oct 06, 2023 2:33:58 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Oct 06, 2023 1:42:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 06, 2023 2:34:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="validateAddressDetailsInCheckoutPage" classname="com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage" time="31.081">
-    <system-out><![CDATA[13:43:34.193 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
-13:43:57.794 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
-13:44:02.121 [main] INFO  com.automation.testcases.SetUp - print enter password kamali5@Automation
-13:44:03.058 [main] INFO  com.automation.testcases.SetUp - address information text is visible
-13:44:13.297 [main] INFO  com.automation.testcases.SetUp - continue btn is clicked
-13:44:26.658 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+  <testcase name="validateAddressDetailsInCheckoutPage" classname="com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage" time="30.578">
+    <system-out><![CDATA[14:34:54.138 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+14:35:17.958 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:35:23.303 [main] INFO  com.automation.testcases.SetUp - print enter password kamali5@Automation
+14:35:24.308 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+14:35:35.221 [main] INFO  com.automation.testcases.SetUp - continue btn is clicked
+14:35:46.218 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
 ]]></system-out>
-    <system-err><![CDATA[Oct 06, 2023 1:43:35 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Oct 06, 2023 2:34:55 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Oct 06, 2023 1:43:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 06, 2023 2:35:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="testScrollUpScrollDown" classname="com.automation.testcases.TC4_ValidateScrollUScrollDown" time="0.735">
-    <system-out><![CDATA[13:44:28.794 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
-13:44:51.439 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
-13:44:51.686 [main] INFO  com.automation.testcases.SetUp - subscription is visible
-13:44:52.137 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+  <testcase name="testScrollUpScrollDown" classname="com.automation.testcases.TC4_ValidateScrollUScrollDown" time="0.62">
+    <system-out><![CDATA[14:35:48.476 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+14:36:11.802 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:36:11.905 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+14:36:12.410 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
 ]]></system-out>
-    <system-err><![CDATA[Oct 06, 2023 1:44:30 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Oct 06, 2023 2:35:49 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Oct 06, 2023 1:44:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 06, 2023 2:36:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
   <testcase name="validateInvoice" classname="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase" time="0">
     <skipped/>
-    <system-out><![CDATA[13:44:52.139 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
-13:45:19.925 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
-13:45:28.097 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
-13:45:40.524 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
-13:45:40.525 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
-13:45:40.569 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+    <system-out><![CDATA[14:36:12.413 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+14:36:38.397 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+14:36:45.434 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+14:36:54.533 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+14:36:54.533 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+14:36:54.579 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
 ]]></system-out>
-    <system-err><![CDATA[Oct 06, 2023 1:44:53 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Oct 06, 2023 2:36:13 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Oct 06, 2023 1:45:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 06, 2023 2:36:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
@@ -138,7 +156,7 @@ WARNING: Unable to find an exact match for CDP version 117, so returning the clo
   <testcase name="validateInvoice" classname="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase" time="0">
     <skipped/>
   </testcase>
-  <testcase name="validateInvoice" classname="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase" time="0.253">
+  <testcase name="validateInvoice" classname="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase" time="0.258">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
 	at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
 ]]></failure>
