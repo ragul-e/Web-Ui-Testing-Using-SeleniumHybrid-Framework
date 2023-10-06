@@ -19,33 +19,33 @@ Extent Report has been used in this framework.
 
 TC2: To validate Add to cart from recommended items and validate if products are successfully removed from the cart
 **Steps:**
-1	Launch the browser and navigate to https://automationexercise.com
-2	Verify that home page is visible successfully
-3	Scroll to bottom of page
-4	Verify 'RECOMMENDED ITEMS' are visible
-5	Validate the navigation buttons in recommended items section
-6	Click on 'Add to Cart' on ‘Winter Top ‘product 
-7	Click on 'View Cart' button
-8	Verify that product is displayed in cart page
-9	Add products to cart (more than 10, search using product name)
-10	 Click 'Cart' button and Verify that cart page is displayed
-11	Click 'X' button corresponding to product. Verify that product is removed from the cart
+1.	Launch the browser and navigate to https://automationexercise.com
+2.	Verify that home page is visible successfully
+3.	Scroll to bottom of page
+4.	Verify 'RECOMMENDED ITEMS' are visible
+5.	Validate the navigation buttons in recommended items section
+6.	Click on 'Add to Cart' on ‘Winter Top ‘product 
+7.	Click on 'View Cart' button
+8.	Verify that product is displayed in cart page
+9.	Add products to cart (more than 10, search using product name)
+10.	 Click 'Cart' button and Verify that cart page is displayed
+11.	Click 'X' button corresponding to product. Verify that product is removed from the cart
 
 TC3: To validate address details in checkout page
  Steps:
-•	Launch the browser and navigate to https://automationexercise.com
-•	Verify that home page is visible successfully
-•	Click 'Signup / Login' button
-•	Fill all details in Signup and create account
-•	Verify 'ACCOUNT CREATED!'. click 'Continue' button and Verify ' Logged in as username' at top
-•	 Add products to cart
-•	Click 'Cart' button
-•	Verify that cart page is displayed
-•	 Click Proceed to Checkout
-•	Verify that the delivery address is same address filled at the time registration of account
-•	 Verify that the billing address is same address filled at the time registration of account
-•	Click 'Delete Account' button
-•	Verify 'ACCOUNT DELETED!' and click 'Continue' button
+1.	Launch the browser and navigate to https://automationexercise.com
+2.	Verify that home page is visible successfully
+3.	Click 'Signup / Login' button
+4.	Fill all details in Signup and create account
+5.	Verify 'ACCOUNT CREATED!'. click 'Continue' button and Verify ' Logged in as username' at top
+6.	Add products to cart
+7.	Click 'Cart' button
+8. Verify that cart page is displayed
+9. Click Proceed to Checkout
+10. Verify that the delivery address is same address filled at the time registration of account
+11. Verify that the billing address is same address filled at the time registration of account
+12.	Click 'Delete Account' button
+13.	Verify 'ACCOUNT DELETED!' and click 'Continue' button
 
 
 TC4: To validate the Scroll up using arrow button and scroll down functionality
