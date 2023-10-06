@@ -2,16 +2,15 @@
 # [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
 Extent Report has been used in this framework.
 
-Test cases:
-TC1: Verify the Registration process. 
-Steps:
-•	Launch the browser and navigate to https://automationexercise.com.
-•	Click on “Sign up/Login” and verify if ‘New User Signup’ is visible.
-•	Provide name and email address.
-•	Click on sign up button.
-•	Validate if “Enter Account Information” is visible.
-•	Provide details like: Title, name, Email, password, DOB.
-•	Verify if “Address Information” section is visible and provide details: First name, Last Name, Company, Address, Address 2, Country, State, City, Zip Code, Mobile number.
+##Test cases:TC1: Verify the Registration process. 
+**Steps:**
+1. Launch the browser and navigate to https://automationexercise.com.
+2. Click on “Sign up/Login” and verify if ‘New User Signup’ is visible.
+3. Provide name and email address.
+4. Click on sign up button.
+5. Validate if “Enter Account Information” is visible.
+6. Provide details like: Title, name, Email, password, DOB.
+7.  Verify if “Address Information” section is visible and provide details: First name, Last Name, Company, Address, Address 2, Country, State, City, Zip Code, Mobile number.
 •	Click ‘create Account’ Button.
 •	Verify ‘Account Created’ is visible and validate the success message.
 •	Click on continue.
