@@ -74,11 +74,11 @@
   *	Card Number
   *	cvv
   *	Expiration date
-15.	Click ‘pay and confirm order’ button
-16.	Verify success message is displayed.
-17.	Click ‘Download invoice’ button.
-18.	Validate if the invoice is downloaded successfully.
-19.	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
+11.	Click ‘pay and confirm order’ button
+12.	Verify success message is displayed.
+13.	Click ‘Download invoice’ button.
+14.	Validate if the invoice is downloaded successfully.
+15.	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
 
 # Topics Implemented in Framework
 
