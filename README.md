@@ -80,4 +80,48 @@
 18.	Validate if the invoice is downloaded successfully.
 19.	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
 
+**Topics Implemented in Framework**
+**Selenium-java**
+**Data Driven Testing**
+
+**/Src**
+ **Utilities**
+  1.Excel Reader
+  2.Excel Writer
+  3.Selenium methods
+  4.Generics
+  5.Constants
+
+**/resource**
+  1.Configuration Reader
+  2.Drivers
+  3.Test Data Excel file
+  
+**TestNG**
+**Maven Build Tool**
+**loggers**
+ 1.log4j2
+**listeners**
+ 1.TestNG TestListenerAdapter
+ 
+**Extent Report**
+ 1.ExtentSparkReporter
+
+**Retry Failed Test case**
+**DataSetters**
+**Funtion Library**
+ 1.Pre condition
+ 2.Post condition
+ 
+**User Defined Exception**
+**Screenshot for Failed Test cases**
+**Runner**
+ 1.Pom.xml
+ 2.TestNG.xml
+ 
+**Suite**
+ 1.smoke
+ 2.Regression
+
+
 
