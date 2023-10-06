@@ -67,7 +67,7 @@ public class PaymentPage extends SetUp {
 	public  void verifyPaymentSuccessMsg() {
 		
 		//failing step intentionally to showcase the screenshot of failed step
-		Assert.assertFalse(ordersuccess.isDisplayed());
+		Assert.assertTrue(ordersuccess.isDisplayed());
 		if(ordersuccess.isDisplayed()) {
 			logger.info("order placed successfully");
 		}

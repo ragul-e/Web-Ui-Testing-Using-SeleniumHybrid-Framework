@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="0" total="8" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-06T14:33:15 IST" name="E-commerceapplication" finished-at="2023-10-06T14:37:00 IST" duration-ms="224572">
+  <suite started-at="2023-10-06T14:54:46 IST" name="E-commerceapplication" finished-at="2023-10-06T14:58:38 IST" duration-ms="232028">
     <groups>
       <group name="regression">
         <method signature="TC3_ValidateAddressDetailsIncheckoutPage.validateAddressDetailsInCheckoutPage()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@15bb5034]" name="validateAddressDetailsInCheckoutPage" class="com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage"/>
@@ -14,212 +14,27 @@
         <method signature="TC5_ValidateInvoiceAfterPurchase.validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" name="validateInvoice" class="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-10-06T14:33:15 IST" name="AutomationExcercise" finished-at="2023-10-06T14:37:00 IST" duration-ms="224572">
+    <test started-at="2023-10-06T14:54:46 IST" name="AutomationExcercise" finished-at="2023-10-06T14:58:38 IST" duration-ms="232028">
       <class name="com.automation.testcases.TC5_ValidateInvoiceAfterPurchase">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:36:13 IST" name="launchBrowser" finished-at="2023-10-06T14:36:38 IST" duration-ms="24588" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:57:51 IST" name="launchBrowser" finished-at="2023-10-06T14:58:13 IST" duration-ms="22336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:36:38 IST" name="validateInvoice" finished-at="2023-10-06T14:36:58 IST" duration-ms="20203" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertFalse(Assert.java:65)
-at org.junit.Assert.assertFalse(Assert.java:75)
-at com.automation.pageobjects.PaymentPage.verifyPaymentSuccessMsg(PaymentPage.java:70)
-at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:49)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:58:13 IST" name="validateInvoice" finished-at="2023-10-06T14:58:37 IST" duration-ms="23846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateInvoice -->
-        <test-method retried="true" signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:36:58 IST" name="validateInvoice" finished-at="2023-10-06T14:36:58 IST" duration-ms="8" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at com.automation.pageobjects.HomePage.verifyHomePage(HomePage.java:101)
-at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInvoice -->
-        <test-method retried="true" signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:36:58 IST" name="validateInvoice" finished-at="2023-10-06T14:36:58 IST" duration-ms="8" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at com.automation.pageobjects.HomePage.verifyHomePage(HomePage.java:101)
-at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInvoice -->
-        <test-method signature="validateInvoice()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:36:58 IST" name="validateInvoice" finished-at="2023-10-06T14:36:58 IST" duration-ms="8" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at com.automation.pageobjects.HomePage.verifyHomePage(HomePage.java:101)
-at com.automation.testcases.TC5_ValidateInvoiceAfterPurchase.validateInvoice(TC5_ValidateInvoiceAfterPurchase.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInvoice -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:36:58 IST" name="closeBrowser" finished-at="2023-10-06T14:37:00 IST" duration-ms="1284" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC5_ValidateInvoiceAfterPurchase@2eae8e6e]" started-at="2023-10-06T14:58:37 IST" name="closeBrowser" finished-at="2023-10-06T14:58:38 IST" duration-ms="1230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.automation.testcases.TC5_ValidateInvoiceAfterPurchase -->
       <class name="com.automation.testcases.TC1_RegistrationProcess">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC1_RegistrationProcess@26d9b808]" started-at="2023-10-06T14:33:15 IST" name="launchBrowser" finished-at="2023-10-06T14:33:38 IST" duration-ms="22416" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC1_RegistrationProcess@26d9b808]" started-at="2023-10-06T14:54:47 IST" name="launchBrowser" finished-at="2023-10-06T14:55:10 IST" duration-ms="23490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC1_RegistrationProcess@26d9b808]" started-at="2023-10-06T14:33:39 IST" name="userRegistration" data-provider="getLogData" finished-at="2023-10-06T14:33:57 IST" duration-ms="18038" status="PASS">
+        <test-method signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcases.TC1_RegistrationProcess@26d9b808]" started-at="2023-10-06T14:55:11 IST" name="userRegistration" data-provider="getLogData" finished-at="2023-10-06T14:55:35 IST" duration-ms="24203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,7 +48,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
             </param>
             <param index="2">
               <value>
-                <![CDATA[boston18@gmail.com]]>
+                <![CDATA[boston19@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -335,49 +150,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistration -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC1_RegistrationProcess@26d9b808]" started-at="2023-10-06T14:33:57 IST" name="closeBrowser" finished-at="2023-10-06T14:33:58 IST" duration-ms="1421" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC1_RegistrationProcess@26d9b808]" started-at="2023-10-06T14:55:35 IST" name="closeBrowser" finished-at="2023-10-06T14:55:37 IST" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.automation.testcases.TC1_RegistrationProcess -->
       <class name="com.automation.testcases.TC2_ValidateCardItems">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC2_ValidateCardItems@7d0b7e3c]" started-at="2023-10-06T14:33:58 IST" name="launchBrowser" finished-at="2023-10-06T14:34:21 IST" duration-ms="22614" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC2_ValidateCardItems@7d0b7e3c]" started-at="2023-10-06T14:55:37 IST" name="launchBrowser" finished-at="2023-10-06T14:56:01 IST" duration-ms="24161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="validateAddItemToCartAndNonExistenceProduct()[pri:0, instance:com.automation.testcases.TC2_ValidateCardItems@7d0b7e3c]" started-at="2023-10-06T14:34:21 IST" name="validateAddItemToCartAndNonExistenceProduct" finished-at="2023-10-06T14:34:54 IST" duration-ms="32968" status="PASS">
+        <test-method signature="validateAddItemToCartAndNonExistenceProduct()[pri:0, instance:com.automation.testcases.TC2_ValidateCardItems@7d0b7e3c]" started-at="2023-10-06T14:56:01 IST" name="validateAddItemToCartAndNonExistenceProduct" finished-at="2023-10-06T14:56:37 IST" duration-ms="35340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddItemToCartAndNonExistenceProduct -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC2_ValidateCardItems@7d0b7e3c]" started-at="2023-10-06T14:34:54 IST" name="closeBrowser" finished-at="2023-10-06T14:34:55 IST" duration-ms="1480" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC2_ValidateCardItems@7d0b7e3c]" started-at="2023-10-06T14:56:37 IST" name="closeBrowser" finished-at="2023-10-06T14:56:38 IST" duration-ms="1416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.automation.testcases.TC2_ValidateCardItems -->
       <class name="com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@15bb5034]" started-at="2023-10-06T14:34:55 IST" name="launchBrowser" finished-at="2023-10-06T14:35:17 IST" duration-ms="22278" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@15bb5034]" started-at="2023-10-06T14:56:38 IST" name="launchBrowser" finished-at="2023-10-06T14:56:58 IST" duration-ms="19528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="validateAddressDetailsInCheckoutPage()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@15bb5034]" started-at="2023-10-06T14:35:17 IST" name="validateAddressDetailsInCheckoutPage" finished-at="2023-10-06T14:35:48 IST" duration-ms="30578" status="PASS">
+        <test-method signature="validateAddressDetailsInCheckoutPage()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@15bb5034]" started-at="2023-10-06T14:56:58 IST" name="validateAddressDetailsInCheckoutPage" finished-at="2023-10-06T14:57:26 IST" duration-ms="28006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddressDetailsInCheckoutPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@15bb5034]" started-at="2023-10-06T14:35:48 IST" name="closeBrowser" finished-at="2023-10-06T14:35:49 IST" duration-ms="1347" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage@15bb5034]" started-at="2023-10-06T14:57:26 IST" name="closeBrowser" finished-at="2023-10-06T14:57:27 IST" duration-ms="1284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.automation.testcases.TC3_ValidateAddressDetailsIncheckoutPage -->
       <class name="com.automation.testcases.TC4_ValidateScrollUScrollDown">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC4_ValidateScrollUScrollDown@4b741d6d]" started-at="2023-10-06T14:35:49 IST" name="launchBrowser" finished-at="2023-10-06T14:36:11 IST" duration-ms="21966" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.automation.testcases.TC4_ValidateScrollUScrollDown@4b741d6d]" started-at="2023-10-06T14:57:27 IST" name="launchBrowser" finished-at="2023-10-06T14:57:48 IST" duration-ms="21420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="testScrollUpScrollDown()[pri:0, instance:com.automation.testcases.TC4_ValidateScrollUScrollDown@4b741d6d]" started-at="2023-10-06T14:36:11 IST" name="testScrollUpScrollDown" finished-at="2023-10-06T14:36:12 IST" duration-ms="622" status="PASS">
+        <test-method signature="testScrollUpScrollDown()[pri:0, instance:com.automation.testcases.TC4_ValidateScrollUScrollDown@4b741d6d]" started-at="2023-10-06T14:57:48 IST" name="testScrollUpScrollDown" finished-at="2023-10-06T14:57:50 IST" duration-ms="1326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScrollUpScrollDown -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC4_ValidateScrollUScrollDown@4b741d6d]" started-at="2023-10-06T14:36:12 IST" name="closeBrowser" finished-at="2023-10-06T14:36:13 IST" duration-ms="1360" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testcases.TC4_ValidateScrollUScrollDown@4b741d6d]" started-at="2023-10-06T14:57:50 IST" name="closeBrowser" finished-at="2023-10-06T14:57:51 IST" duration-ms="1416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

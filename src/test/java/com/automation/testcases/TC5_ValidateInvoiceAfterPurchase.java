@@ -46,7 +46,7 @@ public class TC5_ValidateInvoiceAfterPurchase extends SetUp {
 		paymentpage.monthExp(readfile.cardmonthexp());
 		paymentpage.yearExp(readfile.cardyrexp());
 		paymentpage.clickPayAndConfirm();
-		paymentpage.verifyPaymentSuccessMsg();//failing step intentionally to showcase the screenshot of failed step	
+		paymentpage.verifyPaymentSuccessMsg();
 		paymentpage.downloadInvoice();
 		paymentpage.validateInvoiceDownloadedSuccessfully(readfile.invoiceFilePath());
 		paymentpage.validateTextInInvoice(readfile.invoiceText(),readfile.invoiceFilePath());
