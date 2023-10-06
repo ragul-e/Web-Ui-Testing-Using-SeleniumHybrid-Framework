@@ -11,25 +11,25 @@ Extent Report has been used in this framework.
 5. Validate if “Enter Account Information” is visible.
 6. Provide details like: Title, name, Email, password, DOB.
 7.  Verify if “Address Information” section is visible and provide details: First name, Last Name, Company, Address, Address 2, Country, State, City, Zip Code, Mobile number.
-•	Click ‘create Account’ Button.
-•	Verify ‘Account Created’ is visible and validate the success message.
-•	Click on continue.
-•	Verify ‘logged in as username’ is visible.
+8.	Click ‘create Account’ Button.
+9.Verify ‘Account Created’ is visible and validate the success message.
+10. Click on continue.
+11. Verify ‘logged in as username’ is visible.
 
 
 TC2: To validate Add to cart from recommended items and validate if products are successfully removed from the cart
- Steps:
-•	Launch the browser and navigate to https://automationexercise.com
-•	Verify that home page is visible successfully
-•	Scroll to bottom of page
-•	Verify 'RECOMMENDED ITEMS' are visible
-•	Validate the navigation buttons in recommended items section
-•	Click on 'Add to Cart' on ‘Winter Top ‘product 
-•	Click on 'View Cart' button
-•	Verify that product is displayed in cart page
-•	Add products to cart (more than 10, search using product name)
-•	 Click 'Cart' button and Verify that cart page is displayed
-•	Click 'X' button corresponding to product. Verify that product is removed from the cart
+**Steps:**
+1	Launch the browser and navigate to https://automationexercise.com
+2	Verify that home page is visible successfully
+3	Scroll to bottom of page
+4	Verify 'RECOMMENDED ITEMS' are visible
+5	Validate the navigation buttons in recommended items section
+6	Click on 'Add to Cart' on ‘Winter Top ‘product 
+7	Click on 'View Cart' button
+8	Verify that product is displayed in cart page
+9	Add products to cart (more than 10, search using product name)
+10	 Click 'Cart' button and Verify that cart page is displayed
+11	Click 'X' button corresponding to product. Verify that product is removed from the cart
 
 TC3: To validate address details in checkout page
  Steps:
