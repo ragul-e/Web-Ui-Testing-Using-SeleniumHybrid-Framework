@@ -78,6 +78,6 @@
 16.	Verify success message is displayed.
 17.	Click ‘Download invoice’ button
 18.	Validate if the invoice is downloaded successfully.
-•19.	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
+19.	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
 
 
