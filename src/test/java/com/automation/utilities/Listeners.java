@@ -108,7 +108,9 @@ public class Listeners extends TestListenerAdapter {
 		try {
 			File destinationFile = new File(destination);
 			java.nio.file.Files.copy(screenshot.toPath(), destinationFile.toPath(),StandardCopyOption.REPLACE_EXISTING);
-			test.addScreenCaptureFromPath(destinationFile.getAbsolutePath(), "TestFailureSnap");
+			test.addScreenCaptureFromPath("../Screenshots/" + testname + ".png", "TestFailureSnap");
+
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
