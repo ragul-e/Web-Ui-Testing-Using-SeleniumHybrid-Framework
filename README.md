@@ -1,8 +1,9 @@
 # SeleniumHybridFrameWork you can view the report 
-# Have a look at this report [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
-Extent Report has been used in this framework.
+# Extent Report has been used in this framework.
+# Have a look at the report [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
 
-##Test cases:TC1: Verify the Registration process. 
+
+**TC1: Verify the Registration process.** 
 **Steps:**
 1. Launch the browser and navigate to https://automationexercise.com.
 2. Click on “Sign up/Login” and verify if ‘New User Signup’ is visible.
@@ -17,7 +18,7 @@ Extent Report has been used in this framework.
 11. Verify ‘logged in as username’ is visible.
 
 
-TC2: To validate Add to cart from recommended items and validate if products are successfully removed from the cart
+**TC2: To validate Add to cart from recommended items and validate if products are successfully removed from the cart**
 **Steps:**
 1.	Launch the browser and navigate to https://automationexercise.com
 2.	Verify that home page is visible successfully
@@ -31,8 +32,8 @@ TC2: To validate Add to cart from recommended items and validate if products are
 10.	 Click 'Cart' button and Verify that cart page is displayed
 11.	Click 'X' button corresponding to product. Verify that product is removed from the cart
 
-TC3: To validate address details in checkout page
- Steps:
+**TC3: To validate address details in checkout page**
+**Steps:**
 1.	Launch the browser and navigate to https://automationexercise.com
 2.	Verify that home page is visible successfully
 3.	Click 'Signup / Login' button
@@ -48,35 +49,35 @@ TC3: To validate address details in checkout page
 13.	Verify 'ACCOUNT DELETED!' and click 'Continue' button
 
 
-TC4: To validate the Scroll up using arrow button and scroll down functionality
- Steps:
-•	Launch the browser and navigate to https://automationexercise.com
-•	Verify that home page is visible successfully
-•	Scroll down page to bottom
-•	Verify 'SUBSCRIPTION' is visible
-•	Click on arrow at bottom right side to move upward
-•	Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
+**TC4: To validate the Scroll up using arrow button and scroll down functionality**
+**Steps:**
+1.	Launch the browser and navigate to https://automationexercise.com
+2.	Verify that home page is visible successfully
+3.	Scroll down page to bottom
+4.	Verify 'SUBSCRIPTION' is visible
+5.	Click on arrow at bottom right side to move upward
+6.	Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
 
-TC5: Validating invoice is downloaded after purchasing order. 
-Steps:
-•	Launch the browser and navigate to https://automationexercise.com.
-•	Click on ‘products’ button
-•	Hover over the second product and third product and click ‘add to cart’.
-•	Click ‘continue’ shopping button’
-•	Click on the cart icon in the top section.
-•	The Verify cart page is displayed.
-•	Click on ‘proceed to checkout’ button.
-•	Verify the billing and delivery address, review the order and capture the total amount.
-•	Click on 'place order’.
-•	Enter the payment details:
-•	Name on card
-•	Card Number
-•	cvv
-•	Expiration date
-•	Click ‘pay and confirm order’ button
-•	Verify success message is displayed.
-•	Click ‘Download invoice’ button
-•	Validate if the invoice is downloaded successfully.
-•	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
+**TC5: Validating invoice is downloaded after purchasing order.** 
+**Steps:**
+1.	Launch the browser and navigate to https://automationexercise.com.
+2.Click on ‘products’ button
+3.	Hover over the second product and third product and click ‘add to cart’.
+4.	Click ‘continue’ shopping button’
+5.Click on the cart icon in the top section.
+6.	The Verify cart page is displayed.
+7.	Click on ‘proceed to checkout’ button.
+8.	Verify the billing and delivery address, review the order and capture the total amount.
+9.	Click on 'place order’.
+10.	Enter the payment details:
+11.	Name on card
+12.	Card Number
+13.	cvv
+14.	Expiration date
+15.	Click ‘pay and confirm order’ button
+16.	Verify success message is displayed.
+17.	Click ‘Download invoice’ button
+18.	Validate if the invoice is downloaded successfully.
+•19.	Validate the text in the invoice. Hi ‘your name’, Your total purchase amount is ‘purchase amount’. Thank you
 
 
