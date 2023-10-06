@@ -1119,3 +1119,55 @@
 11:49:37.693 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
 11:49:37.713 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
 11:49:40.872 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:16:15.274 [main] WARN  org.apache.poi.POIDocument - DocumentSummaryInformation property set came back as null
+12:16:15.278 [main] WARN  org.apache.poi.POIDocument - SummaryInformation property set came back as null
+12:16:22.079 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:16:38.843 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:16:38.911 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+12:17:01.602 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:17:07.242 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+12:17:07.244 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:17:28.643 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:17:30.881 [main] INFO  com.automation.testcases.SetUp - print enter password kamali5@Automation
+12:17:31.323 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+12:17:40.164 [main] INFO  com.automation.testcases.SetUp - continue btn is clicked
+12:17:49.164 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:17:50.614 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:18:04.956 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:18:05.014 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+12:18:05.113 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+12:18:05.114 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:18:19.945 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:18:23.360 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:18:35.622 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+12:18:35.622 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+12:18:35.636 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+12:18:38.687 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:21:59.907 [main] WARN  org.apache.poi.POIDocument - DocumentSummaryInformation property set came back as null
+12:21:59.911 [main] WARN  org.apache.poi.POIDocument - SummaryInformation property set came back as null
+12:22:02.070 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+12:22:02.120 [main] INFO  com.automation.testcases.SetUp - Enter account information is visible
+12:22:02.705 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+12:22:15.758 [main] INFO  com.automation.testcases.SetUp - continue btn is clicked
+12:22:15.802 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:22:36.986 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:22:37.041 [main] INFO  com.automation.testcases.SetUp - RECOMMENDED ITEMS section is visible.
+12:23:31.910 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:23:37.537 [main] INFO  com.automation.testcases.SetUp - successfully removed 
+12:23:37.539 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:23:51.988 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:23:53.828 [main] INFO  com.automation.testcases.SetUp - print enter password kamali5@Automation
+12:23:54.320 [main] INFO  com.automation.testcases.SetUp - address information text is visible
+12:24:02.083 [main] INFO  com.automation.testcases.SetUp - continue btn is clicked
+12:24:11.144 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:24:13.024 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:24:29.998 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:24:30.053 [main] INFO  com.automation.testcases.SetUp - subscription is visible
+12:24:30.157 [main] INFO  com.automation.testcases.SetUp - Page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible.
+12:24:30.157 [main] INFO  com.automation.testcases.SetUp - Test execution completed.
+12:24:43.398 [main] INFO  com.automation.testcases.SetUp - Homepage is verified
+12:24:45.612 [main] INFO  com.automation.testcases.SetUp - cart page is displayed successfully
+12:24:55.671 [main] INFO  com.automation.testcases.SetUp - review order-product one: Men Tshirt
+12:24:55.671 [main] INFO  com.automation.testcases.SetUp - review order-product two: Sleeveless Dress
+12:24:55.688 [main] INFO  com.automation.testcases.SetUp - Total Amount: Rs. 1400
+12:24:59.131 [main] INFO  com.automation.testcases.SetUp - Test execution completed.

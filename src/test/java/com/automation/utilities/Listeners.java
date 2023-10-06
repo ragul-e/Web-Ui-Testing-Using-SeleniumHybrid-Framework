@@ -103,7 +103,7 @@ public class Listeners extends TestListenerAdapter {
 		String testname = tr.getName();
 //		File screenshot = ((TakesScreenshot) SetUp.driver).getScreenshotAs(OutputType.FILE);
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		String destination = "src/test/resources/Screenshots/" + testname + ".png";
+		String destination = "Screenshots/" + testname + ".png";
 
 		try {
 			File destinationFile = new File(destination);
