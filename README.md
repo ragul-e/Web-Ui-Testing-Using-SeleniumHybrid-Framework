@@ -1,5 +1,5 @@
 # SeleniumHybridFrameWork you can view the report 
-# you can view the report [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
+# Have a look at this report [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
 Extent Report has been used in this framework.
 
 ##Test cases:TC1: Verify the Registration process. 
