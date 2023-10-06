@@ -1,6 +1,6 @@
 # SeleniumHybridFrameWork  
 # Extent Report has been used in this framework.
-# Have a look at the report [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
+## Have a look at the report [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
 
 
 **TC1: Verify the Registration process.** 
@@ -122,7 +122,7 @@
 2. TestNG.xml
 
 ## Suite
-1. smoke
+1. Smoke
 2. Regression
 
 
