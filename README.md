@@ -82,8 +82,8 @@
 
 # Topics Implemented in Framework
 
-1. **Selenium-java**
-2. **Data Driven Testing**
+1. Selenium-java
+2. Data Driven Testing
 
 ## /Src
 ### Utilities
