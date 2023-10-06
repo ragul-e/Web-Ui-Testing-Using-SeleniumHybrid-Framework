@@ -70,10 +70,10 @@
 8.	Verify the billing and delivery address, review the order and capture the total amount.
 9.	Click on 'place order’.
 10.	Enter the payment details:
-11.	Name on card
-12.	Card Number
-13.	cvv
-14.	Expiration date
+  *	Name on card
+  *	Card Number
+  *	cvv
+  *	Expiration date
 15.	Click ‘pay and confirm order’ button
 16.	Verify success message is displayed.
 17.	Click ‘Download invoice’ button.
