@@ -1,4 +1,4 @@
-# Selenium HybridFrameWork  
+# Selenium Hybrid FrameWork  
 # Extent Report has been used in this framework.
 ## Have a look at the report [here](https://ragul-e.github.io/WebUiTestingWithSeleniumHybridFramework/) 
 
