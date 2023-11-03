@@ -1,6 +1,6 @@
 # Selenium Hybrid FrameWork  
 # Extent Report has been used in this framework.
-## Have a look at the report here (https://ragul-e.github.io/Web-Ui-Testing-Using-SeleniumHybrid-Framework/)
+## Have a look at the report [here](https://ragul-e.github.io/Web-Ui-Testing-Using-SeleniumHybrid-Framework/)
 
 
 **TC1: Verify the Registration process.** 
