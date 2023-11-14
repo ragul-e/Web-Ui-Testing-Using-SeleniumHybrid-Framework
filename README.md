@@ -4,6 +4,7 @@
 
 
 **TC1: Verify the Registration process.** 
+
 **Steps:**
 1. Launch the browser and navigate to https://automationexercise.com.
 2. Click on “Sign up/Login” and verify if ‘New User Signup’ is visible.
