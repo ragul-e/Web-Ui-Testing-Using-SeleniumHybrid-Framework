@@ -5,7 +5,7 @@
 
 **TC1: Verify the Registration process.** 
 
-**Steps:**
+**Test Steps:**
 1. Launch the browser and navigate to https://automationexercise.com.
 2. Click on “Sign up/Login” and verify if ‘New User Signup’ is visible.
 3. Provide name and email address.
@@ -20,7 +20,8 @@
 
 
 **TC2: To validate Add to cart from recommended items and validate if products are successfully removed from the cart**
-**Steps:**
+
+**Test Steps:**
 1.	Launch the browser and navigate to https://automationexercise.com
 2.	Verify that home page is visible successfully
 3.	Scroll to bottom of page
@@ -34,7 +35,8 @@
 11.	Click 'X' button corresponding to product. Verify that product is removed from the cart
 
 **TC3: To validate address details in checkout page**
-**Steps:**
+
+**Test Steps:**
 1.	Launch the browser and navigate to https://automationexercise.com
 2.	Verify that home page is visible successfully
 3.	Click 'Signup / Login' button
@@ -51,7 +53,8 @@
 
 
 **TC4: To validate the Scroll up using arrow button and scroll down functionality**
-**Steps:**
+
+**Test Steps:**
 1.	Launch the browser and navigate to https://automationexercise.com
 2.	Verify that home page is visible successfully
 3.	Scroll down page to bottom
@@ -59,8 +62,9 @@
 5.	Click on arrow at bottom right side to move upward
 6.	Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
 
-**TC5: Validating invoice is downloaded after purchasing order.** 
-**Steps:**
+**TC5: Validating invoice is downloaded after purchasing order.** ''
+
+**Test Steps:**
 1.	Launch the browser and navigate to https://automationexercise.com.
 2.Click on ‘products’ button
 3.	Hover over the second product and third product and click ‘add to cart’.
